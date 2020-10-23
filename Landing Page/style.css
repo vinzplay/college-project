@@ -1,0 +1,65 @@
+#navigate {
+    border: rgb(92, 66, 1);
+    border-radius: 5px;
+    border-style: solid;
+    border-spacing: 300px;
+    font-size: large;
+    border-collapse: collapse;
+    background-color: rgba(14, 14, 212, 0.87);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkgoldenrod;
+}
+
+h1 {
+    font-family: sans-serif;
+    font: bold;
+    color: darkgoldenrod; 
+    border-bottom: solid;
+}
+
+h2 {
+    align-items: center;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 183, 0);
+}
+
+body,html {
+    height: 100%;
+    background-image: url(../Landing\ Page/LoL.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+
+#sidenav {
+    right: 5px;
+    top: 50px;
+    position: fixed;
+}
+
+#nav_title {
+    border-style: solid;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.89)!important;
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#champ {
+    border: black;
+    border-radius: 20px;
+    border-style: solid;
+    font-size: large;
+    font-weight: bold;
+    background-color: rgba(0, 0, 255, 0.774);
+    margin-left: 10px;
+}
+
+form {
+    padding-top: 370px;
+    padding-left: 525px;
+    font-size: 17px;
+}
