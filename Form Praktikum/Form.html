@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Pendaftaran</title>
+    </head>
+    <body style="text-align:center" bgcolor="lightyellow">
+        <hr size="10px" width="75%" align="center" color="blue">
+
+    <p>
+        <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+            Registrasi Dibawah Ini
+        </h1>
+        <img src="stt-nf.png" alt="stt-nf.png">
+    </p>
+    <hr size="10px" width="75%" align="center" color="darkblue">
+
+    <form>
+    <p>  
+        <label style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;">Nama Lengkap</label>
+        <br />
+        <input type="text" size="50px" style="text-align: center;"/>
+    </p>
+
+    <p>
+        <label style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Tanggal Lahir</label>
+        <br>
+        <input type="date" size="50px">
+    </p>
+
+    <p>
+        <label style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Alamat</label>
+        <br>
+        <input type="text-area"  size="50px" height="50px" style="text-align: left;">
+    </p>
+
+    <p>
+        <label style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;">E-mail</label>
+        <br />
+        <input type="email" size="50px" style="text-align: center;"/>
+    </p>
+
+    <p>
+        <label style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;">Username</label>
+        <br />
+        <input type="text" style="text-align: center;"/>
+    </p>
+
+    <p>
+        <label style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;">Password</label> 
+        <br /> 
+        <input type="password" style="text-align: center;"/>
+    </p>    
+       
+    <p>
+        <label style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;">Jenis Kelamin</label>
+        <input type="radio" name="gender" />laki-laki
+        <input type="radio" name="gender" />perempuan
+    </p>
+       
+    <p>
+        <label style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;">Agama </label>
+        <select name="agama">
+            <option value="pilih">---Pilih---</option>
+            <option value="islam">Islam</option>
+            <option value="katolik">Katolik</option>
+            <option value="protestan">Protestan</option>
+            <option value="hindu">Hindu</option>
+            <option value="budha">Budha</option>
+        </select>
+    </p>   
+    
+    <p>
+        <label style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;">Kamu adalah seorang</label>
+        <input type="radio" name="dosen" />Dosen
+        <input type="radio" name="dosen" />Mahasiswa
+    </p>
+
+    <p>
+        <label style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Kelas:</label>
+        <br>
+        <input type="radio" name="kelas" />TI-01
+        <input type="radio" name="kelas" />TI-02
+        <input type="radio" name="kelas" />TI-03
+        <input type="radio" name="kelas" />TI-04
+        <input type="radio" name="kelas" />TI-05
+        <input type="radio" name="kelas" />TI-06
+        <input type="radio" name="kelas" />TI-07
+        <input type="radio" name="kelas" />TI-08
+        <br>
+        <input type="radio" name="kelas" />SI-01
+        <input type="radio" name="kelas" />SI-02
+        <input type="radio" name="kelas" />SI-03
+        <input type="radio" name="kelas" />SI-04
+        <input type="radio" name="kelas" />SI-05
+        <input type="radio" name="kelas" />SI-06
+        <input type="radio" name="kelas" />SI-07
+        <input type="radio" name="kelas" />SI-08
+        <br>
+        <input type="radio" name="kelas" />Dosen
+    </p>
+
+    <p>
+        <label style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Semester:</label>
+        <br>
+        <input type="radio" name="semester" />Semester-1
+        <input type="radio" name="semester" />Semester-2
+        <input type="radio" name="semester" />Semester-3
+        <input type="radio" name="semester" />Semester-4
+        <input type="radio" name="semester" />Semester-5
+        <input type="radio" name="semester" />Semester-6
+        <input type="radio" name="semester" />Semester-7
+        <input type="radio" name="semester" />Semester-8
+        <br>
+        <input type="radio" name="semester" />Dosen
+    </p>
+
+    <p>
+        <form action="proses.php" method="get">
+            <button type="submit" style="background-color: darkgray;">Submit</button>
+            <button type="reset" style="background-color: darkgray;">Reset</button>
+    </p>
+    <hr size="10px" width="50%" align="center" color="blue">
+    </form>
+    </body>
+</html>
